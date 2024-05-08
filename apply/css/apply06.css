@@ -45,3 +45,45 @@ footer {
 	text-align: center;
     color: #341509;
 }
+
+/* Media Query for Tablet Viewport */
+
+@media screen , print and (min-width: 481px) {
+    article {
+        width: 43%;
+        float: left;
+        height: 160px;
+    }
+
+    footer {
+        clear:left;
+    }
+}
+    /* Styles for tablet viewport go here */
+
+
+    /* Media Query for Desktop Viewport */
+
+    @media screen and (min-width: 900px) {
+            article {
+                width: 27%;
+                height: 140px;
+            }
+        
+            article:hover {
+                    background-color: #ffe5dc;
+                    color: #a22c02;
+                }
+
+                body {
+                    background: linear-gradient(to left, #fe9972, #ffe5dc);
+                }
+                
+            }
+            
+        
+        
+    
+    
+
+
